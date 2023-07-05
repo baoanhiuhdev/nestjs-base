@@ -5,10 +5,6 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { PassportModule } from '@nestjs/passport';
 
 import { AppLoggerMiddleware } from './utils/logger.middleware';
-import { VerifyModule } from './modules/verify/verify.module';
-import { RoundModule } from './modules/round/round.module';
-import { NftModule } from './modules/nft/nft.module';
-import { ConfigDataModule } from './modules/config/config-data.module';
 import { UserModule } from './modules/user/user.module';
 
 @Module({
